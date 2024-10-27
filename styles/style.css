@@ -1,4 +1,239 @@
 /* место для вашего кода */
-.header{
-    
+.body {
+  width: 1100px;
+  margin: auto;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.header {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+  margin: 92px 24px 96px;
+  padding: 0 26px;
+}
+
+.header__menu {
+  display: flex;
+  list-style-type: none;
+  align-items: baseline;
+  justify-content: space-between;
+  font-size: 18px;
+  line-height: 22px;
+  width: 392px;
+}
+.header__links-list:not(.first-child) {
+  text-underline-offset: 6px;
+}
+
+.first-child {
+  text-decoration: none;
+}
+
+.header__menu_circle {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  border: 1px solid black;
+  margin: 0 12px;
+}
+.header__links-list_last_item {
+  padding-right: 0;
+}
+
+.header__logo {
+  width: 148px;
+  height: 105px;
+  display: flex;
+  margin-left: 36px;
+}
+
+.contacts {
+  width: 240px;
+  font-size: 18px;
+  line-height: 24px;
+  margin-left: 66px;
+}
+
+.contacts__ul {
+  list-style-type: none;
+  text-align: left;
+}
+.contacts__li:not(.address) {
+  font-style: normal;
+  text-underline-offset: 6px;
+}
+.address {
+  text-decoration: none;
+  font-style: normal;
+  width: 236px;
+}
+
+.cover {
+  width: 1100px;
+  height: 757px;
+  margin: auto;
+  background: url(/images/cover.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  background-position: center;
+}
+.overlay {
+  width: 100%;
+  height: 100%;
+  background: rgb(0, 0, 0, 0.6);
+  display: block;
+}
+.cover__title {
+  color: #ffffff;
+  padding: 165px 50px 237px 50px;
+  display: block;
+  margin: 0;
+  position: relative;
+  font-family: "Raleway";
+  line-height: 115px;
+  font-size: 100px;
+  font-weight: bold;
+  text-transform: uppercase;
+  z-index: 2;
+}
+
+.aligned-text {
+  display: block;
+  letter-spacing: 0.3em;
+}
+.letter-spacing-extended {
+  letter-spacing: 60px;
+}
+.aligned-text_center {
+  display: block;
+  text-align: center;
+  letter-spacing: 0.3em;
+  margin-top: 11px;
+}
+.aligned-text_right {
+  margin-top: 5px;
+  display: block;
+  text-align: end;
+  letter-spacing: 0.3em;
+}
+.no-letter-spacing {
+  letter-spacing: 0;
+}
+.cover__description {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  bottom: 7%;
+  z-index: 1;
+  gap: 79px;
+}
+.cover__description-text {
+  color: #ffffff;
+  text-align: center;
+  font-family: "Raleway";
+  font-size: 22px;
+  word-spacing: 18px;
+  margin-left: 78px;
+  width: 637px;
+}
+.bet-button {
+  width: 256px;
+  height: 51px;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+  font-family: Raleway;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 500;
+  background: none;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.lots {
+  width: 1052px;
+  margin: auto;
+  margin-top: 180px;
+}
+
+.lots__heading {
+  color: #000000;
+  font-family: Raleway;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+  margin-left: 40px;
+  margin-bottom: 27px;
+}
+.lots__card-list {
+}
+.card {
+  text-decoration: none;
+}
+.card_type_film {
+  background: url(/images/card-lot-01.jpg);
+}
+.card_type_book {
+  background: url(/images/card-lot-02.jpg);
+}
+.card_type_picture {
+  background: url(/images/card-lot-03.jpg);
+}
+.card__link {
+}
+.card__title {
+}
+.card__text {
+}
+
+.lots__look-more-link {
+  color: #000000;
+  font-family: "Raleway";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  padding-left: 40px;
+  line-height: normal;
+}
+.about {
+}
+.about__column {
+}
+.about__logo {
+  display: flex;
+  width: 240px;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 50%;
+  background-color: black;
+}
+.about__logo-image {
+  width: 148px;
+  height: 114px;
+  flex-shrink: 0;
+  margin: 64px 46.5px;
+}
+.about__auction {
+}
+.about__title {
+}
+.about__text {
+}
+.footer {
+}
+.footer__menu {
+}
+.footer__link_active {
+}
+.footer__social-list {
+}
+.footer__social-icon {
 }
