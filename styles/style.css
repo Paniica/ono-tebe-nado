@@ -80,7 +80,7 @@
   margin: auto;
   background-size: cover;
   position: relative;
-  background-image: url(/images/cover.jpg);
+  background-image: url(../images/cover.jpg);
   background-position: center;
 }
 
@@ -162,7 +162,7 @@
   background: none;
   line-height: normal;
   text-transform: uppercase;
-  font-family: "Raleway" sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 
 .lots {
@@ -318,7 +318,8 @@
 .footer__contacts_ul {
   font-size: 18px;
   line-height: 24px;
-  text-decoration: none;
+}
+.footer__contacts_li {
   list-style-type: none;
 }
 
